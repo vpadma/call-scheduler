@@ -13,6 +13,7 @@ from src import Resident, ResidentYear, Schedule
 RESIDENTS_DIRECTORY = "residents"
 RESIDENT_TEMPLATE_FILENAME = "template.yaml"
 HOSPITAL_INFO_FILENAME = "hospital_information.yaml"
+CSV_OUTPUT_FILENAME = "call_schedule.csv"
 MONTHLY_CALL_MAX = 9
 
 
