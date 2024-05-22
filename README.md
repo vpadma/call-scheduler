@@ -10,7 +10,7 @@ This tool makes a call-schedule for the year starting July 1, 2024 to June 30, 2
 2. During week days residents cannot be scheduled on consecutive days (exception Friday)
 3. Friday, Saturday, and Sunday are consecutive call days
 4. Residents cannot work 2 consecutive weekends (friday, sat, sunday as above)
-5. During the first month ideally year 2nd year residents are not scheduled on weekends
+5. During the first month 2nd year residents are not scheduled on weekends
 6. Residents cannot be scheduled during vacation dates or no call request weekends
 7. Residents cannot be scheduled for more than 9 calls a month (fri,sat,sun counts as 3)
 8. Jr residents should do fairly equal call amongst each other
