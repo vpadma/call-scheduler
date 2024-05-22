@@ -31,6 +31,8 @@ This tool makes a call-schedule for the year starting July 1, 2024 to June 30, 2
 
 **Note: this tool does not accommodate for splitting up Easter long weekend or Exceptions 11.a and 11.b**
 
+For every date, this prorgam retrieves the list of eligible residents based on the rules provided. Then sorts the list based on what residents have worked the least in the month, and then in total. If there are still ties, pick randomly from the tied residents.
+
 ## Setup
 
 These setup instructions are for Macs.
