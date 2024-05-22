@@ -38,6 +38,9 @@ class Schedule:
         self.total_stats.record_residents_on_call(junior, senior)
         self.monthly_stats[date.month].record_residents_on_call(junior, senior)
 
+    def to_csv_format(self) -> list[tuple[date, str, str]]:
+        return [date.to_csv_row() for date in self.dates.values()]
+        
     def get_junior_residents_load(self) -> dict[uuid.UUID, int]:
         return {resident.id: self.total_stats.resident_load[resident.id] for resident in self.residents.values() if
                 resident.is_junior()}

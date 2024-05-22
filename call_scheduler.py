@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import csv
 import os
 import random
 from datetime import date, timedelta
@@ -12,6 +13,7 @@ from src import Resident, ResidentYear, Schedule
 RESIDENTS_DIRECTORY = "residents"
 RESIDENT_TEMPLATE_FILENAME = "template.yaml"
 HOSPITAL_INFO_FILENAME = "hospital_information.yaml"
+CSV_OUTPUT_FILENAME = "call_schedule.csv"
 MONTHLY_CALL_MAX = 9
 
 
@@ -56,6 +58,12 @@ class CallScheduler:
             selected_junior, selected_senior = self.select_optimal_residents_for_date(
                 self.get_eligible_juniors_for_date(date), self.get_eligible_seniors_for_date(date), date)
             self.schedule.schedule_date(date, selected_junior, selected_senior)
+
+    def to_csv(self) -> None:
+        with open(CSV_OUTPUT_FILENAME, "w") as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(["Date", "Junior Resident", "Senior Resident"])
+            writer.writerows(self.schedule.to_csv_format())
 
     # For every date, retrieve the list of eligible residents based on the rules provided. Then sort the list based
     # on what residents have worked the least in the month, and then in total. If there are still ties, pick randomly
