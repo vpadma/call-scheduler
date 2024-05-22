@@ -15,7 +15,15 @@ This tool makes a call-schedule for the year starting July 1, 2024 to June 30, 2
 7. Residents cannot be scheduled for more than 9 calls a month (fri,sat,sun counts as 3)
 8. Jr residents should do fairly equal call amongst each other
 9. Sr. Residents should do fairly equal call amongst each other
-10. Long weekends are pre-assigned (4 day consecutive usually, ~with Exceptions for easter long weekend~). These include: Canada day long weekend (mon included), civic (during 3 week summer exception see below), labour day long (mon included), thanksgiving (mon included), remembrance day (mon included), family day (mon included), easter long (friday and Mon included, 1 person scheduled thurs-sat, 1 sun-mon), Victoria day (mon included)
+10. Long weekends are pre-assigned (4 day consecutive usually, ~with Exceptions for easter long weekend~). These include:
+  - Canada day long weekend (mon included)
+  - Civic (during 3 week summer exception see below)
+  - Labour day long (mon included)
+  - Thanksgiving (mon included)
+  - Remembrance day (mon included)
+  - Family day (mon included)
+  - Easter long (friday and Mon included, ~1 person scheduled thurs-sat, 1 sun-mon~)
+  - Victoria day (mon included)
 11. Exceptions:
   - ~3 weeks during July and August, Jr call schedule will remain following the above rules, however, Sr call schedule will differ. Srs will take 3-4 consecutive days of call (i.e. from July 21-Aug 11). This may just need to be input manually~
   - ~3 weeks during Dec - Jan, Jr and Sr will be operating on a 3-5 day consecutive schedule over this period~
