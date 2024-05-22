@@ -84,5 +84,4 @@ vacation_days:
 ```
 $ .venv/bin/python runner.py
 ```
-
-#### TODO: currently this program outputs the date and call-assignments to console. Will configure this to output to a .csv file later (i.e. so you can import into Excel or Google Sheets)
+4. Running this tool will output a csv file (`call_schedule.csv`), which you can then import into your spreadsheet software of choice
