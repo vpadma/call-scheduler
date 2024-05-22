@@ -44,3 +44,6 @@ class ScheduledDate:
 
     def print_on_call(self):
         print(f"Date: {self.date}, Junior: {self.junior_on_call.name}, Senior: {self.senior_on_call.name}")
+        
+    def to_csv_row(self) -> tuple[date, str, str]:
+        return self.date, self.junior_on_call.name, self.senior_on_call.name
