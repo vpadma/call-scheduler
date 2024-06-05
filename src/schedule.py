@@ -5,7 +5,8 @@ from dataclasses import dataclass, InitVar, field
 from datetime import date, timedelta
 from typing import Final
 
-from src import Resident, ScheduledDate
+from .resident import Resident
+from .scheduled_date import ScheduledDate
 
 
 class Schedule:

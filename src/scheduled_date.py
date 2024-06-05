@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from datetime import date, timedelta
 from typing import Final
 
-from src import Resident
+from .resident import Resident
 
 
 @dataclass
